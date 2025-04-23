@@ -8,7 +8,7 @@ const CardContent = ({ children }) => <div>{children}</div>;
 const API_BASE = "https://openapi.nexon.com/game/maplestorysea";
 
 const headers = {
-  'x-nxopen-api-key': 'YOUR_API_KEY'
+  'x-nxopen-api-key': 'test_bffa24a77e7bdc433481e365a07edc1771031e583ad35dc15da4317021cc44f2efe8d04e6d233bd35cf2fabdeb93fb0d'
 };
 
 export default function MapleSEAStatsTracker() {
